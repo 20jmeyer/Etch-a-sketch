@@ -1,13 +1,15 @@
-.row{
-    display: flex;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    gap:1px;
+
+#container{
+    display: grid;
+    width:600px;
+    height:600px;
+
+
+    grid-gap: 1px;
 }
 
-.container div {
-    gap: 1px;
-
+.grid-item{
+    background-color: azure;
+    border-color: bisque;
+    border-style: solid;
 }
