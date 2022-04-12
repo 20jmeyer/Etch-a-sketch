@@ -1,0 +1,13 @@
+.row{
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+}
+
+.container div {
+    gap: 1px;
+
+}
