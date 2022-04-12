@@ -1,6 +1,10 @@
 
+let mousedown = false;
 
-
+function colorCell(e) {
+    e.target.style.backgroundColor="black";
+    mousedown=true;
+}
 
 function makeGrid(size) {
     const container = document.querySelector("#container");
@@ -9,6 +13,7 @@ function makeGrid(size) {
     
     for (let i = 0; i < (size*size); i++) {
         let cell = document.createElement("div");
+        cell.addEventListener("mouseover",colorCell)
         container.appendChild(cell).className="grid-item";
     }
 
