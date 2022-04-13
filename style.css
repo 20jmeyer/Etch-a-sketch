@@ -13,3 +13,7 @@
     border-color: bisque;
     border-style: solid;
 }
+
+.inputs{
+    display: flex;
+}
